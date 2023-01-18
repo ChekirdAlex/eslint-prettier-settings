@@ -20,6 +20,12 @@
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
+        },
+        "requireConfigFile": false,
+        "babelOptions": {
+            "parserOpts": {
+                "plugins": ["jsx"]
+            }
         }
     },
     "parser": "@babel/eslint-parser",
